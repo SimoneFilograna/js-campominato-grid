@@ -8,8 +8,10 @@
 }
 
 .grid-container{
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
-    padding: 2rem 5rem;
+    padding: 1rem 6rem;
+    margin: auto;
 }
 
