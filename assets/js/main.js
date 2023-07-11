@@ -7,8 +7,7 @@ const btnPlay = document.getElementById("btn-play");
 btnPlay.addEventListener("click", myClick);
 
 //buttonfunction
-function myClick(){
-    singleSquare();   
+function myClick(){   
     printSquare(gridContainer, gridSquare(100))
 }
 
