@@ -5,6 +5,9 @@
     aspect-ratio: 1/1;
     flex-basis: calc(100% / 10);
     border: 1px solid black;
+    background-color: rgb(37, 194, 168);
+    font-weight: 600;
+    font-size: 1.3rem;
 }
 
 .grid-container{
@@ -15,3 +18,6 @@
     margin: auto;
 }
 
+body{
+    background-image: url(../img/bg.png);
+}

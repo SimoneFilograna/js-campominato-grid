@@ -27,7 +27,7 @@ function gridSquare(squareNum){
         const newSquare= singleSquare(1 + i);
         gridArray.push(newSquare);
         newSquare.addEventListener("click", function(){
-            newSquare.classList.toggle("bg-primary");
+            newSquare.classList.toggle("bg-success");
             console.log(`Si è colorata la cella numero ${1 + i}`)
         })
     }      
