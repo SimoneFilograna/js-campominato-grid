@@ -12,12 +12,13 @@
 
 .grid-container{
     width: 50%;
+    aspect-ratio: 1/1;
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem 6rem;
-    margin: auto;
+    margin: 2rem auto;
 }
 
 body{
     background-image: url(../img/bg.png);
 }
+
